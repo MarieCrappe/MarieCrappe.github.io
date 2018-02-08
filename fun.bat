@@ -1,0 +1,1 @@
+FOR %%A IN ("2018-02-02T14:38:21Z") DO (export GIT_AUTHOR_DATE=%%A & export GIT_COMMITTER_DATE=%%A & git add . & git commit -m "just for fun")
